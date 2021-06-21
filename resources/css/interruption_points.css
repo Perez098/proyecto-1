@@ -1,0 +1,41 @@
+
+
+/* HEADER */
+
+@media only screen and (max-width: 675px) {
+    header h1 {
+        font-size: 2rem;
+        padding: 2rem 0 1.5rem;
+        color: rgb(150, 0, 0);
+    }
+}
+
+@media only screen and (max-width: 435px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+}
+
+
+/* MAIN*/
+
+@media only screen and (max-width: 800px) {
+    main .container-images {
+        flex-direction: column;
+    }
+
+    .container-images .container-picture {
+        width: 90%;
+        height: 15rem;
+        margin: .5rem auto;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    h2 {
+        text-align: center;
+    }
+}
+
+
+/* FOOTER */

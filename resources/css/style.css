@@ -1,0 +1,114 @@
+html {
+    font-size: 20px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    min-width: 400px;
+    text-align: justify;
+}
+
+header {
+    padding: 0 3rem;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+h2 {
+    font-family: 'Fredoka One', cursive;
+    text-align: left;
+}
+
+p {
+    font-family: "Jost", sans-serif;
+}
+
+
+/* Header */
+
+header h1 {
+    font-family: "Caveat", cursive;
+    text-align: center;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    margin: 0;
+    padding: 2rem;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+}
+
+header .header-concept {
+    margin-bottom: 1.5rem;
+}
+
+
+/* MAIN */
+
+.container-images {
+    display: flex;
+    margin: 1.5rem 0;
+}
+
+.container-images .container-picture{
+    width: 50%;
+    height: 20rem;
+    padding: .5rem;
+    background-color: #fff;
+    margin: 0.5rem;
+}
+
+.container-images .container-picture img {
+    object-fit: cover;
+    object-position: left;
+    outline: 2px solid #000;
+}
+
+.section-tip_1 {
+    padding: .5rem 3rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.section-tip_2 {
+    padding: .5rem 3rem;
+}
+
+.section-tip_3 {
+    padding: .5rem 3rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.section-tip_4 {
+    padding: .5rem 3rem;
+}
+
+.section-tip_5 {
+    padding: .5rem 3rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.section-tip_6 {
+    padding: .5rem 3rem;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #000;
+    width: 100%;
+    font-family: "Caveat", cursive;
+}
+
+footer h4 {
+    color: #fff;
+    margin: 0;
+    padding: .5rem;
+    text-align: right;
+    margin-right: 1rem;
+}
