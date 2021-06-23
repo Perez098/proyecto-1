@@ -4,9 +4,14 @@
 
 @media only screen and (max-width: 675px) {
     header h1 {
+        color: #2E4053;
+        border-color: #CB4335;
         font-size: 2rem;
         padding: 2rem 0 1.5rem;
-        color: rgb(150, 0, 0);
+    }
+
+    header p {
+        color: #283747;
     }
 }
 
@@ -19,21 +24,64 @@
 
 /* MAIN*/
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1050px) {
     main .container-images {
         flex-direction: column;
     }
 
     .container-images .container-picture {
-        width: 90%;
-        height: 15rem;
+        width: 80%;
+        height: 20rem;
         margin: .5rem auto;
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
+    main div.extra {
+        display: none;
+    }
+
     h2 {
         text-align: center;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    main .container-images {
+        display: none;
+    }
+
+    .section-tip_1 {
+        padding: .5rem 3rem;
+        background-color: #d64423;
+        color: #fff;
+    }
+    
+    .section-tip_2 {
+        padding: .5rem 3rem;
+        color: #283747;
+    }
+    
+    .section-tip_3 {
+        padding: .5rem 3rem;
+        background-color: #2177b1 ;
+        color: #fff;
+    }
+    
+    .section-tip_4 {
+        padding: .5rem 3rem;
+        color: #283747;
+    }
+    
+    .section-tip_5 {
+        padding: .5rem 3rem;
+        background-color: #21ac5b;
+        color: #fff;
+    }
+    
+    .section-tip_6 {
+        padding: .5rem 3rem;
+        color: #283747;
     }
 }
 
