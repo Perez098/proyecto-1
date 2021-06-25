@@ -2,11 +2,17 @@ html {
     font-size: 20px;
 }
 
+::selection {
+    background-color: #b3ff00;
+    color: #000;
+}
+
 body {
     padding: 0;
     margin: 0;
-    min-width: 400px;
+    min-width: 415px;
     text-align: justify;
+    font-family: "Jost", sans-serif;
 }
 
 header {
@@ -24,17 +30,12 @@ h2 {
     text-align: left;
 }
 
-p {
-    font-family: "Jost", sans-serif;
-}
-
-
 /* Header */
 
 header h1 {
     font-family: "Caveat", cursive;
     text-align: center;
-    border-bottom: 3px solid #117A65 ;
+    border-bottom: 3px solid #117A65;
     margin: 0;
     padding: 2rem;
     font-size: 3rem;
@@ -111,6 +112,10 @@ main .section-tip_6 .container-picture {
 .section-tip_6 {
     padding: .5rem 3rem;
     color: #283747;
+}
+
+.section-tip_6 .list {
+    text-align: left;
 }
 
 
