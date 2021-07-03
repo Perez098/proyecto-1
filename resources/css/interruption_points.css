@@ -33,16 +33,14 @@
         height: 20rem;
         margin: .5rem auto;
     }
-}
 
-@media only screen and (max-width: 900px) {
     h2 {
         text-align: center;
-        margin-bottom: 1rem;
+        margin-bottom: 1.3rem;
     }
 
     main .container-content .line {
-        border-top: 3px solid #2C3E50 ;
+        border-top: 3px solid #2C3E50;
         padding: 0;
         max-width: 10rem;
         margin: 0 auto;
