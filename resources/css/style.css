@@ -1,16 +1,18 @@
+
 html {
     font-size: 20px;
 }
 
 ::selection {
-    background-color: #b3ff00;
-    color: #000;
+    background-color: #273746;
+    color: #f4f6f7;
 }
 
 body {
     padding: 0;
     margin: 0;
     min-width: 500px;
+    max-width: 2000px;
     text-align: justify;
     font-family: "Jost", sans-serif;
 }
@@ -29,6 +31,8 @@ img {
 h2 {
     font-family: 'Fredoka One', cursive;
     text-align: left;
+    font-size: 1.7rem;
+    
 }
 
 /* Header */
@@ -62,6 +66,7 @@ header .header-concept {
     background-color: #fff;
     margin: 0.5rem;
     border-radius: .5rem;
+    overflow: hidden;
 }
 
 main .section-tip_2 .container-picture {
